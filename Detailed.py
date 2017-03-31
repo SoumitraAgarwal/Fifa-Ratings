@@ -328,12 +328,25 @@ df1 = pd.DataFrame({'Name' : Name, 'Nationality': Nationality, 'National_Positio
 	'Club_Joining' : Joining, 'Contract_Expiry' : Contract, 'Rating' : Rating, 'Height' : Height,
 	'Weight' : Weight, 'Preffered_Foot': Preffered_foot,'Birth_Date': Birth_date, 'Age': Age, 
 	'Preffered_Position' : Preffered_position, 'Work_Rate': Work_rate,'Weak_foot' : Weak_foot,
-	'Skill_Moves' : Skill_moves, 'Ball_Control': Ball_Control, 'Dribbling': Dribbling})
+	'Skill_Moves' : Skill_moves, 'Ball_Control': Ball_Control, 'Dribbling': Dribbling, 'Marking': Marking,
+	'Sliding_Tackle': Sliding, 'Standing_Tackle':Standing, 'Aggression':Aggression, 'Reactions': Reactions,
+	'Attacking_Position':Attack, 'Interceptions': Interceptions, 'Vision':Vision, 'Composure':Composure,
+	'Crossing':Crossing, 'Short_Pass':Short_pass, 'Long_Pass': Long_pass, 'Acceleration':Acceleration,
+	'Speed':Sprint, 'Stamina': Stamina, 'Strength': Strength, 'Balance':Balance, 'Agility': Agility,
+	'Jumping': Jumping, 'Heading':Heading, 'Shot_Power': Shot_Power, 'Finishing':Finishing, 
+	'Long_Shots': Long_Shots,'Curve':Curve,'Freekick_Accuracy':Freekick, 'Penalties': Penalties,
+	'Volleys' : Volleys, 'GK_Positioning': GK_Posi, 'GK_Diving': GK_Diving, 'GK_Kicking':GK_Kick,
+	'GK_Handling':GK_Handling, 'GK_Reflexes': GK_Reflexes})
 
 
 cols = ['Name', 'Nationality', 'National_Position', 'National_Kit', 'Club', 'Club_Position', 'Club_Kit',
 		'Club_Joining', 'Contract_Expiry', 'Rating', 'Height', 'Weight', 'Preffered_Foot', 'Birth_Date',
-		'Age', 'Preffered_Position', 'Work_Rate', 'Weak_foot', 'Skill_Moves', 'Ball_Control', 'Dribbling']
+		'Age', 'Preffered_Position', 'Work_Rate', 'Weak_foot', 'Skill_Moves', 'Ball_Control', 'Dribbling',
+		'Marking','Sliding_Tackle','Standing_Tackle','Aggression','Reactions','Attacking_Position',
+		'Interceptions','Vision','Composure','Crossing', 'Short_Pass','Long_Pass','Acceleration',
+		'Speed','Stamina','Strength','Balance','Agility','Jumping','Heading','Shot_Power','Finishing',
+		'Long_Shots','Curve','Freekick_Accuracy','Penalties','Volleys','GK_Positioning','GK_Diving',
+		'GK_Kicking','GK_Handling','GK_Reflexes']
 
 df1 = df1[cols]
 print(df1)
