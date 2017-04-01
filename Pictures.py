@@ -16,7 +16,8 @@ proxies = {
   'https': 'https://10.4.22.5:3128',
 }
 
-for i in range(1000):
+for i in range(1100):
+	print(i)
 	url_temp = url+df['url'][i]
 	while(True):
 		print("Getting page for "+df['Name'][i])
