@@ -73,7 +73,7 @@ GK_Reflexes = [];
 
 df_done = pd.read_csv("FullData.csv");
 
-for i in range(len(df_done),len(df['Name'])):
+for i in range(len(df_done),len(df_done)+1500):
 	Name.append(df['Name'][i])
 	url_temp = url+df['url'][i]
 	while(True):
