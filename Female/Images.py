@@ -18,8 +18,8 @@ print("Read complete")
 
 url = "https://www.fifaindex.com"
 proxies = {
-  'http': 'http://a.soumitra:boo<3cha@202.141.80.22:3128',
-  'https': 'https://a.soumitra:boo<3cha@202.141.80.22:3128',
+  'http': 'http://10.4.22.5:3128',
+  'https': 'https://10.4.22.5:3128',
 }
 for i in range(len(a)):
     im = cv2.imread(base+a[i])

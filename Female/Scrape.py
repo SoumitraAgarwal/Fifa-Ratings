@@ -7,8 +7,8 @@ import pandas as pd
 url1 = "https://www.fifaindex.com/"
 url = "https://www.fifaindex.com/players/?gender=1"
 proxies = {
-  'http': 'http://a.soumitra:boo<3cha@202.141.80.22:3128',
-  'https': 'https://a.soumitra:boo<3cha@202.141.80.22:3128',
+  'http': 'http://10.4.22.5:3128',
+  'https': 'https://10.4.22.5:3128',
 }
 
 page = requests.get(url,proxies=proxies)
